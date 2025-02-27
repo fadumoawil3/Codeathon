@@ -141,3 +141,10 @@ main ul, main ul h2{
     list-style-type: none; 
     background-color: #5a0e1f00;   
 }
+
+.contact_policymakers_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    margin-left: 30px;
+}
