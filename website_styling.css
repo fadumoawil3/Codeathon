@@ -100,6 +100,8 @@ img{
 .rights_grid{
     display: grid;
     grid-template-columns: repeat(2,2fr);
+    margin-left: 55px;
+    column-gap: 20px;
 }
 .rights_grid div{
     width: auto;
@@ -125,6 +127,7 @@ img{
 .sustainable_grid div:hover, .rights_grid div:hover{
     background-color: #e4ddd2;
     font-size: 110%;
+    color: rgb(17, 17, 102);
 }
 .sustainable_grid h2{
     background-color: rgba(255, 105, 180, 0);
