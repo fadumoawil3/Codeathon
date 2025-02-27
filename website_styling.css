@@ -78,7 +78,9 @@ main h1{
     width: fit-content;
     font-size: larger;
 }
-
+.cause ul, .impact ul{
+    list-style-type: disc;
+}
 h2{
     width:fit-content;
     background-color: rgb(255, 110, 110);
