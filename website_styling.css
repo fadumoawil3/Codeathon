@@ -120,14 +120,14 @@ img{
     width:fit-content;
     height: auto;
     align-self: center;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 15px;
     padding: 10px;
 }
 .sustainable_grid div:hover, .rights_grid div:hover{
     background-color: #e4ddd2;
     font-size: 110%;
-    color: rgb(17, 17, 102);
+    color: rgb(22, 22, 130);
 }
 .sustainable_grid h2{
     background-color: rgba(255, 105, 180, 0);
