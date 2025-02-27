@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+    background-color:   #faf2e6;
+}
+
+/* Nav Bar Styling */
+.nav_bar{
+    line-height: 50px;
+}
+.nav_bar li{
+    float: left;
+    width: 20%;
+    font-size: large;
+}
+.nav_bar a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    color: #faf2e6;
+   
+}
+.nav_bar ul{
+    list-style-type: none;
+    background-color: #c43636;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+    border: 3px solid #721b2e;
+
+}
+.nav_bar a:hover{
+    background-color: #9e2323;
+    font-size: 110%;
+}
+/* Jumbotron */
+.jumbotron{
+    font-size: 170%;
+    padding: 100px;
+    background-color: rgb(21, 30, 95);
+    text-align: center;
+    border-bottom: 3px solid rgb(245, 199, 114);
+    color: #faf2e6;
+}
+
+/* Text Body styling */
+main{
+    margin: 25px;
+    font-size: larger;
+    
+}
+main p, main ul{
+    font-size: large;
+    letter-spacing: 1px;
+    width: fit-content;
+}
+main h1{
+    background-color: rgb(255, 110, 110);
+    text-align: center;
+    width: fit-content;
+}
+
+/* Discimination Page Stylign */
+.discrimination_text{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.cause_impact_grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    row-gap: 30px;
+    margin-left: 90px;
+    margin-right: 70px;
+}
+.cause_impact_grid div{
+    width: fit-content;
+    font-size: larger;
+}
+
+h2{
+    width:fit-content;
+    background-color: rgb(255, 110, 110);
+}
+img{
+    height: 300px;
+    width: 550px;
+    border-radius: 15px;
+}
+
+/* Styling that Makes Home Page text and Game side by side */
+.index_text{
+    width: 800px;
+    float: left;
+    margin-right: 60px;
+
+}
+/* Rights Grid */
+.rights_grid{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+.rights_grid div{
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+}
+/* SUstaioinable Polciies Stylign */
+.sustainable_grid{
+    display: grid;
+    grid-template-columns: repeat(5,5fr);
+    row-gap: 70px;
+    column-gap: 15px;
+    text-align: center;
+}
+.sustainable_grid div{
+    width:fit-content;
+    height: auto;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+.sustainable_grid div:hover, .rights_grid div:hover{
+    background-color: #e4ddd2;
+    font-size: 110%;
+}
+.sustainable_grid h2{
+    background-color: rgba(255, 105, 180, 0);
+    text-align: center;
+}
+.sustainable_grid p{
+    font-size: 80%;
+}
+/* Gte Involved Styling*/ 
+main ul, main ul h2{
+    list-style-type: none; 
+    background-color: #5a0e1f00;   
+}
