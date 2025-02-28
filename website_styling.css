@@ -61,6 +61,14 @@ main h1{
     width: fit-content;
 }
 
+/* Styling that Makes Home Page text and Game side by side */
+.index_text{
+    width: 800px;
+    float: left;
+    margin-right: 60px;
+
+}
+
 /* Discimination Page Stylign */
 .discrimination_text{
     margin-left: 200px;
@@ -91,14 +99,8 @@ img{
     border-radius: 15px;
 }
 
-/* Styling that Makes Home Page text and Game side by side */
-.index_text{
-    width: 800px;
-    float: left;
-    margin-right: 60px;
 
-}
-/* Rights Grid */
+/* Know Your Rights Divs Styling */
 .rights_grid{
     display: grid;
     grid-template-columns: repeat(2,2fr);
@@ -110,7 +112,7 @@ img{
     height: auto;
     border-radius: 15px;
 }
-/* SUstaioinable Polciies Stylign */
+/* Sustainable Polciies Styling */
 .sustainable_grid{
     display: grid;
     grid-template-columns: repeat(5,5fr);
@@ -138,7 +140,7 @@ img{
 .sustainable_grid p{
     font-size: 80%;
 }
-/* Gte Involved Styling*/ 
+/* Get Involved Styling*/ 
 main ul, main ul h2{
     list-style-type: none; 
     background-color: #5a0e1f00;   
